@@ -16,3 +16,5 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+/**"outputPath": "dist/angular-github-hosting-project"  :aus dem angular.json */
