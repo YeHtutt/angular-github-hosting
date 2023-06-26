@@ -1,3 +1,5 @@
-<app-header></app-header>
+<app-header [darkMode]="router.url !== '/'"></app-header>
 <!--<app-slideshow></app-slideshow>-->
-<router-outlet></router-outlet>
+<div [class.container]="router.url !== '/'"> <!-- diese Container mit Einrückungen nicht Start-URL '/' ist, es wird alle unterseiten die Einrückung(padding) verwendet-->
+    <router-outlet></router-outlet>
+</div>

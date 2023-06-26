@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { HeaderComponent } from './header/header.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SlideshowComponent,
     HeaderComponent,
-    ImprintComponent
+    ImprintComponent,
+    ProjectsComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
