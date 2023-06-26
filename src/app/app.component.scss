@@ -10,7 +10,7 @@
     height: 100vh;
     object-fit: cover;
     max-width: 100%;
-    animation: zoomIn 8s ease;
+    animation: zoomIn 8s ease infinite;
 }
 
 @keyframes zoomIn {
